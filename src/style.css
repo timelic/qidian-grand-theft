@@ -1,0 +1,12 @@
+.page-read-top,
+.expand-hot-comment,
+.read-author-say,
+#readLoadNext,
+.review-count {
+  display: none !important;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}

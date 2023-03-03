@@ -1,0 +1,24 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "ts-node ./src/index.ts",
+    "run-transpile-only": "ts-node --transpile-only ./src/index.ts",
+    "test": "ts-node ./src/test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "playwright": "^1.31.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tesseract.js": "^4.0.2"
+  }
+}
